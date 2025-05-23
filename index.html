@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+    Course: Front-End Development I (SWD 321)
+    Assignment Submitted By: Aliu Mercy Oyiza
+    Registration No.: 0003-->
+
+    <meta charset="UTF-8" />
+    <title>Wafa Kitchen Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Wafa Kitchen</h1>
+      <p>No 1 Stop for Authentic Nigerian Recipes</p>
+    </header>
+
+    <div class="controls">
+      <!--Search Option Sectioin-->
+      <input type="text" id="search" placeholder="Search recipes..." />
+
+      <!--Filter Section-->
+      <select id="filter">
+        <option value="all">All Types</option>
+        <option value="rice">Rice</option>
+        <option value="soup">Soup</option>
+        <option value="snack">Snack</option>
+        <option value="grill">Grill</option>
+      </select>
+    </div>
+
+    <!--Recipe Book Section-->
+
+    <div id="recipe-container">
+      <div class="recipe-card" data-type="rice">
+        <img src="jollof.jpeg" alt="Jollof Rice" />
+        <h3>Jollof Rice</h3>
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>2 cups rice</li>
+          <li>Tomato paste</li>
+          <li>Blended pepper & onions</li>
+          <li>Seasoning, salt</li>
+          <li>Vegetable oil</li>
+        </ul>
+        <h4>Method:</h4>
+        <p>
+          Fry the tomato blend, add seasonings, then stir in rice and water.
+          Cook until soft.
+        </p>
+      </div>
+
+      <div class="recipe-card" data-type="soup">
+        <img src="egusi soup.jpeg" alt="Egusi Soup" />
+        <h3>Egusi Soup</h3>
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>Egusi (melon seeds)</li>
+          <li>Palm oil</li>
+          <li>Vegetables</li>
+          <li>Stockfish or beef</li>
+          <li>Seasoning</li>
+        </ul>
+        <h4>Method:</h4>
+        <p>
+          Fry egusi in oil, add meat stock, season, and add vegetables. Simmer
+          well.
+        </p>
+      </div>
+
+      <div class="recipe-card" data-type="snack">
+        <img src="moi  moi.jpeg" alt="Moi Moi" />
+        <h3>Moi Moi</h3>
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>Beans (peeled and blended)</li>
+          <li>Onions, peppers</li>
+          <li>Oil</li>
+          <li>Boiled eggs</li>
+          <li>Seasoning</li>
+        </ul>
+        <h4>Method:</h4>
+        <p>
+          Blend beans with pepper and onion, mix with oil and eggs, pour into
+          containers, and steam.
+        </p>
+      </div>
+
+      <div class="recipe-card" data-type="grill">
+        <img src="suya.jpeg" alt="Suya" />
+        <h3>Suya</h3>
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>Beef slices</li>
+          <li>Suya spice</li>
+          <li>Groundnut oil</li>
+          <li>Salt</li>
+        </ul>
+        <h4>Method:</h4>
+        <p>
+          Marinate beef with spices and oil, skewer and grill over charcoal
+          until done.
+        </p>
+      </div>
+    </div>
+    <div class="submission">
+      <p>Course: <i>Front-End Development I (SWD 321)</i></p>
+      <p>Submitted By: <i>Aliu Mercy Oyiza</i></p>
+      <p>Reg. No.: <i>0003</i></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
